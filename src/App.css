@@ -53,14 +53,17 @@ main {
     cursor: pointer;
 }
 
-.meme--image {
-    max-width: 100%;
-    border-radius: 3px;
-}
-
 .meme {
+    top: 1em;
     position: relative;
 }
+
+.meme--image {
+    max-width: 100%;
+    border-radius: .2em;
+}
+
+
 
 .meme--text {
     position: absolute;
@@ -68,13 +71,13 @@ main {
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    margin: 15px 0;
-    padding: 0 5px;
+    margin: 1em 0;
+    padding: 0 .3em;
     font-family: impact, sans-serif;
     font-size: 2em;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625em;
     text-shadow:
         2px 2px 0 #000,
         -2px -2px 0 #000,
@@ -85,4 +88,12 @@ main {
         0 -2px 0 #000,
         -2px 0 0 #000,
         2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
 }
