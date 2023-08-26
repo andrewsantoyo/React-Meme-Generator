@@ -8,6 +8,8 @@ Welcome to the React Meme Generator project! This website was built using React 
 - Preview your meme in real-time as you make changes to captions and image selection.
 - The app leverages React's props and states to dynamically update the UI as users interact with the meme generator.
 - API calls are made to fetch meme images, providing a dynamic and ever-expanding library for meme creation.
+- Conditional rendering
+- Ternary operator
 
 
 # Getting Started with Create React App
