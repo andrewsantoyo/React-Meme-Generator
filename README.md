@@ -10,6 +10,7 @@ Welcome to the React Meme Generator project! This website was built using React 
 - API calls are made to fetch meme images, providing a dynamic and ever-expanding library for meme creation.
 - Conditional rendering
 - Ternary operator
+- Use effect
 
 
 # Getting Started with Create React App
